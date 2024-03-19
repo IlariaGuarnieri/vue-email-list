@@ -17,9 +17,9 @@
 <body>
   <div id="app">
     <div class="container my-5">
-      <h1>lista email</h1>
+      <h1>Indirizzi email generati</h1>
       <ul>
-        <li></li>
+        <li v-for="email in emailList" :key="email">{{ email }}</li>
       </ul>
     </div>
   </div>
